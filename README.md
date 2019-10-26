@@ -1,5 +1,5 @@
 # voice-recognition
-Browser based voice recognition application.
+Browser based voice recognition application with javascript.
 
 * clone the project
 * open the voice-search file in browser (Google Chrome, application has to be extended further to support other browsers)
