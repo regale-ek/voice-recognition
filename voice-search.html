@@ -1,0 +1,21 @@
+
+<!-- CSS Styles -->
+  <style>
+    .speech {border: 1px solid #DDD; width: 500px; padding: 0; margin: 0}
+    .speech input {border: 0; width: 400px; display: inline-block; height: 40px;}
+    .speech img {float: right; width: 40px }        
+  </style>
+  
+  <!-- Search Form -->  
+    <div class="speech">
+      <input type="text" name="q" id="transcript" placeholder="Search" />
+      <img onclick="startDictation()" src="mic.gif"  />      
+    </div>
+    <div style="height: 30px;"></div>
+    <div class="search-result">
+        <h3 type="text" name="action" id="output" placeholder="Search Results"/>
+    </div>  
+  
+  <!-- HTML5 Speech Recognition API -->
+  <script src="app.js"></script>
+    
